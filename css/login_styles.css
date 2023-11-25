@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+:root{
+/*   --light-brown: #C19A6B;*/
+   --light-brown: #B0A695;
+/*   --brown:#deb887;*/
+   --brown:#EBE3D5;
+/*   --dark: #321414;*/
+   --dark: #321414;
+   --black:#333;
+   --white:#fff;
+/*   --letter-shadow: #987654;*/
+   --letter-shadow: #776B5D;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+
+   --btn-hover: #A4907C;
+}
+
+*{
+   font-family: 'PT Serif', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: none;
+}
+
+*::-webkit-scrollbar{
+   width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--light-brown);
+}
+
+
+/* FILIPINOBELA PAGE */
+.button-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 460px;
+}
+.login_button{
+   margin: 4px 5px;
+   padding:10px 30px;
+   font-size: 30px;
+   border-radius: 22px;
+   border:2px solid var(--dark);
+   cursor: pointer;
+   background-color: var(--btn-hover);
+   color: var(--dark);
+ }
+ .login_button:hover{
+    background: var(--light-brown);
+ }
+ .login_button:active {
+   background-color: var(--light-brown);
+   transform: translateY(4px);
+ }
+ 
+ .register_button{ 
+   margin: 4px 5px;
+   padding:10px 30px;
+   font-size: 30px;
+   border-radius: 22px;
+   border:2px solid var(--dark);
+   cursor: pointer;
+   background-color: var(--btn-hover);
+   color: var(--dark);
+ }
+ .register_button:hover{
+   background: var(--light-brown);
+   color: var(--dark);
+ }
+ .register_button:active {
+   background-color: var(--btn-hover);
+   transform: translateY(4px);
+ }
+ /* ----------------------- */
+ 
+
+/* LOGIN PAGE */
+/* Arrow Design */
+.bx-arrow-back{
+	font-size: 30px;
+   color:var(--dark);
+}
+/* ------------- */
+
+
+/* Login and Regis Button */
+.login_regis_btn{
+   width: 100%;
+   border-radius: 10px;
+   border: 2px solid  var(--dark);
+   padding:5px 1px; 
+   font-size: 23px;
+   background-color: var(--dark);
+   color: var(--brown);
+   margin-top: 15px; 
+   margin-bottom: 20px;
+   align-items: left;
+}
+.login_regis_btn:hover{
+   background: var(--btn-hover);
+   color: var(--dark);
+}
+.login_regis_btn:active{
+   background-color: var(--btn-hover);
+   transform: translateY(4px);
+}
+/* ------------------------ */
+ 
+
+/* Warning Design */
+.message{
+   margin:10px 0;
+   width: 100%;
+   border-radius: 5px;
+   padding:10px;
+   text-align: center;
+   color:rgb(255, 24, 24);
+   font-size: 30px;
+}
+.message_approve{
+   margin:10px 0;
+   width: 100%;
+   border-radius: 5px;
+   padding:10px;
+   text-align: center;
+   color:rgb(5, 255, 5);
+   font-size: 30px;
+}
+/* -------------- */
+
+
+/* Light Brown Design */
+.form-container{
+   min-height: 100vh;
+   background-color: var(--light-brown);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+/* Brown Design */
+.form-container form{
+   padding:25px 30px;
+   background-color: var(--brown);
+   box-shadow: var(--box-shadow);
+   text-align: left;   
+   border-radius: 20px;
+   border: 3px solid  var(--dark);
+   background: var(--brown);
+}
+
+.form-container form h3{
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: -20px;
+   font-size: 60px;
+   color:var(--dark);
+   text-transform: uppercase;
+   text-shadow: 1px 1px 1px var(--letter-shadow),
+         1px 2px 1px var(--letter-shadow),
+         1px 3px 1px var(--letter-shadow),
+         1px 4px 1px var(--letter-shadow),
+         1px 5px 1px var(--letter-shadow),
+         1px 6px 1px var(--letter-shadow),
+         1px 7px 1px var(--letter-shadow);
+}
+
+.form-container form h2{
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: 1px;
+   font-size: 45px;
+   color:var(--dark);
+   text-transform: uppercase;
+   text-shadow: 1px 1px 1px var(--letter-shadow),
+         1px 2px 1px var(--letter-shadow),
+         1px 3px 1px var(--letter-shadow),
+         1px 4px 1px var(--letter-shadow),
+         1px 5px 1px var(--letter-shadow);
+}
+ 
+.form-container form .box{
+   width: 100%;
+   border-radius: 10px;
+   padding:13px 14px;
+   font-size: 18px;
+   color:var(--dark);
+   margin:10px 0;
+   background-color: var(--light-brown);
+}
+
+.form-container form .show{
+   position: relative;
+   text-align: center;
+   font-size: 15px;
+   color: var(--dark);
+   left: 10px;
+}
+
+.form-container form .p_regis{
+   text-align: left; 
+   font-size: 15px;
+   color: black;
+/*   margin-top: 5px;*/
+
+}
+
+.form-container form .forgot,
+.form-container form .tab_regis{   
+   text-align: left; 
+   font-size: 15px;
+   color: blue;
+   margin-top: 10px; 
+}
+
+.login_regis-container{
+    width:100%;
+    margin: 0 auto;
+    background-color:var(--sidebar-color);
+    text-align:center 
+}
+.text-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.login_regis-text{
+    width:fit-content;
+    text-align:left; 
+    background-color:var(--sidebar-color);
+}
+
+
+.form-container .email{
+   margin-top: 100px;
+   position: relative;
+   font-size: 25px;
+   color: var(--dark);
+   text-shadow: 1px 1px 1px var(--letter-shadow),
+         1px 2px 1px var(--letter-shadow),
+         1px 3px 1px var(--letter-shadow),
+         1px 4px 1px var(--letter-shadow);
+}
+
+.form-container .pass{
+   margin-top: 20px;
+   position: relative;
+   font-size: 25px;
+   color: var(--dark);
+   text-shadow: 1px 1px 1px var(--letter-shadow),
+         1px 2px 1px var(--letter-shadow),
+         1px 3px 1px var(--letter-shadow),
+         1px 4px 1px var(--letter-shadow);
+}
+/* ----------------------------- */
+
+
+/* REGISTER PAGE */
+.form-container .email_regis,
+.form-container .pass_regis,
+.form-container .co_regis,
+.form-container .user_regis{
+   margin-top: 100px;
+   position: relative;
+   font-size: 25px;
+   color: var(--dark);
+   text-shadow: 1px 1px 1px var(--letter-shadow),
+         1px 2px 1px var(--letter-shadow),
+         1px 3px 1px var(--letter-shadow),
+         1px 4px 1px var(--letter-shadow);
+}
+
+
+@media (max-width:650px){
+   .update-profile form .flex{
+      flex-wrap: wrap;
+      gap:0;
+   }
+   .update-profile form .flex .inputBox{
+      width: 100%;
+   }
+} 2

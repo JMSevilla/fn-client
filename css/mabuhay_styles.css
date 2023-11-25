@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+:root{
+/*   --light-brown: #C19A6B;*/
+   --light-brown: #B0A695;
+/*   --brown:#deb887;*/
+   --brown:#EBE3D5;
+/*   --dark: #321414;*/
+   --dark: #321414;
+   --black:#333;
+   --white:#fff;
+/*   --letter-shadow: #987654;*/
+   --letter-shadow: #776B5D;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+
+   --btn-hover: #A4907C;
+}
+
+*{
+   font-family: 'PT Serif', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: none;
+}
+
+*::-webkit-scrollbar{
+   width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--light-brown);
+}
+
+
+/* Arrow Design */
+.bx-arrow-back{
+	font-size: 30px;
+   color:var(--dark);
+}
+/* ------------- */
+
+
+/* Login and Regis Button */
+.mabuhay_btn{
+   border-radius: 15px;
+   border: 2px solid  var(--dark);
+   padding: 10px 40px;  
+   font-size: 20px;
+   background-color: var(--dark);
+   color: var(--brown);
+}
+.mabuhay_btn:hover{
+   background: var(--btn-hover);
+   color: var(--dark);
+}
+.mabuhay_btn:active{
+   background-color: var(--btn-hover);
+   transform: translateY(4px);
+}
+/* ------------------------ */
+
+
+/* Light Brown Design */
+.form-container{
+   min-height: 100vh;
+   background-color: var(--light-brown);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+/* Brown Design */
+.form-container form{
+   padding:25px 30px;
+   background-color: var(--brown);
+   box-shadow: var(--box-shadow);
+   text-align: left;   
+   width: 85%;
+   border-radius: 20px;
+   border: 3px solid  var(--dark);
+   background: var(--brown);
+}
+
+.form-container form h3{
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: -5px;
+   font-size: 50px;
+   color:var(--dark);
+   text-transform: uppercase;
+   text-shadow: 1px 1px 1px var(--letter-shadow),
+         1px 2px 1px var(--letter-shadow),
+         1px 3px 1px var(--letter-shadow),
+         1px 4px 1px var(--letter-shadow),
+         1px 5px 1px var(--letter-shadow),
+         1px 6px 1px var(--letter-shadow),
+         1px 7px 1px var(--letter-shadow);
+}
+
+.novel-text{
+   width:fit-content;
+   background-color: var(--sidebar-color);
+   text-align: center;
+   font-size: 22px;
+   color: var(--dark);
+}
+/* ----------------------------- */
+
+
+@media (max-width:650px){
+   .update-profile form .flex{
+      flex-wrap: wrap;
+      gap:0;
+   }
+   .update-profile form .flex .inputBox{
+      width: 100%;
+   }
+}
