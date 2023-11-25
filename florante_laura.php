@@ -55,7 +55,7 @@ if(!isset($user_id)){
 				<div class="menu">
                 
                 <li data-tab-target="#">
-                    <a href="main.php">
+                    <a href="index.php">
                         <i class='bx bx-arrow-back icon'></i>
                         <span class="text nav-text">Bumalik</span>
                     </a>

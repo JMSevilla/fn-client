@@ -37,7 +37,7 @@
                                     <br> 
 
                                     <br>
-                                    <center><a href="./fili/quiz_buod.php" class="btn">Subukan ang kaalaman</a></center>
+                                    <center><a href="./fili/quiz_buod.php" class="btn">Pagsusulit</a></center>
                                     <br>
                                 </div>
                     </div>

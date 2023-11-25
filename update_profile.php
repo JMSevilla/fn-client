@@ -150,7 +150,7 @@ if(isset($_POST['update_profiles'])){
 
       
 
-      <a href="main.php" class="back-btn">Bumalik</a>
+      <a href="index.php" class="back-btn">Bumalik</a>
 
       <script>
          const oldpasswordInput = document.getElementById('oldpasswordInput');

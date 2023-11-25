@@ -54,10 +54,10 @@ if(!isset($user_id)){
             <div class="menu-bar">
 				<div class="menu">
                 
-                <!-- <center><a href="main.php" class='bx bx-arrow-back'></a></center> -->
+                <!-- <center><a href="index.php" class='bx bx-arrow-back'></a></center> -->
 
                 <li data-tab-target="#">
-                    <a href="main.php">
+                    <a href="index.php">
                         <i class='bx bx-arrow-back icon'></i>
                         <span class="text nav-text">Bumalik</span>
                     </a>
